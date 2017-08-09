@@ -20,7 +20,7 @@ function setup () {
 }
 
 function draw () {
-  frameRate(5)
+  frameRate(15)
   background(51)
   for (var i = 0; i < grid.length; i++) {
     grid[i].show()
